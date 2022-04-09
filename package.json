@@ -1,5 +1,5 @@
 {
-  "name": "tank-app",
+  "name": "comp-app",
   "version": "0.1.0",
   "private": true,
   "main": "server.js",
@@ -21,7 +21,10 @@
     "express-jwt": "^6.1.1",
     "helmet": "^5.0.2",
     "mongoose": "^6.2.9",
-    "morgan": "^1.10.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
     "nodemon": "^2.0.15"
   }
 }
